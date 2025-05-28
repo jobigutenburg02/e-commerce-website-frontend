@@ -33,6 +33,10 @@ npm run dev
 ```
 ### 5. Open your browser and go to [http://localhost:5173](http://localhost:5173)
 
+**Note:** 
+1. For payment through Flutterwave, refer to this website [https://developer.flutterwave.com/docs/testing](https://developer.flutterwave.com/docs/testing)
+2. For payment through PayPal, refer to this website [https://developer.paypal.com/tools/sandbox/](https://developer.paypal.com/tools/sandbox/)
+
 ## Conclusion
 
 This e-commerce website frontend offers a modern, responsive, and user-friendly shopping experience. Built using **React** and **Vite**, it ensures fast performance and seamless navigation across devices.
