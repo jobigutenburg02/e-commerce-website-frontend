@@ -1,7 +1,5 @@
 import { useEffect } from "react"
 import CartItem from "./CartItem"
-import api from "../../api"
-import { useState } from "react"
 import Spinner from "../ui/Spinner"
 import useCartData from "../../hooks/useCartData"
 import CartSummary from "./CartSummary"
