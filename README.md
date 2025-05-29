@@ -40,12 +40,8 @@ npm run dev
 1. For payment through Flutterwave, refer to this website [https://developer.flutterwave.com/docs/testing](https://developer.flutterwave.com/docs/testing)
 2. For payment through PayPal, refer to this website [https://developer.paypal.com/tools/sandbox/](https://developer.paypal.com/tools/sandbox/)
 
-## Conclusion
+## Support
 
-This e-commerce website frontend offers a modern, responsive, and user-friendly shopping experience. Built using **React** and **Vite**, it ensures fast performance and seamless navigation across devices.
-
-From browsing products to managing a shopping cart, this app delivers core functionality for a complete online store — and is ready to integrate with your **Django backend** for full-stack functionality.
-
-Whether you're a developer setting up the project or a contributor looking to enhance its features, we hope this documentation helps you get started quickly and confidently.
-
-Happy coding and happy shopping!
+For support and questions:
+- Create an issue in the repository
+- Contact: jbros2513@gmail.com
