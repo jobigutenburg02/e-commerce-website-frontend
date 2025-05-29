@@ -3,6 +3,9 @@
 This is the **frontend** part of a full-stack e-commerce website, built using **React** and **Vite**. It provides a fast, responsive, and modern user interface for browsing products, adding them to cart, and placing orders.
 
 ---
+## Before Getting Started
+
+Visit [my backend repo](https://github.com/jobigutenburg02/e-commerce-website-backend/) and follow the steps mentioned in the repo. Then you can proceed with the below steps for running the frontend code.
 
 ## Getting Started
 
@@ -33,7 +36,7 @@ npm run dev
 ```
 ### 5. Open your browser and go to [http://localhost:5173](http://localhost:5173)
 
-**Note:** 
+**Note:**
 1. For payment through Flutterwave, refer to this website [https://developer.flutterwave.com/docs/testing](https://developer.flutterwave.com/docs/testing)
 2. For payment through PayPal, refer to this website [https://developer.paypal.com/tools/sandbox/](https://developer.paypal.com/tools/sandbox/)
 
