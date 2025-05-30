@@ -7,6 +7,7 @@ This is the **frontend** part of a full-stack e-commerce website, built using **
 
 Visit [my backend repo](https://github.com/jobigutenburg02/e-commerce-website-backend/) and follow the steps mentioned in the repo. Then you can proceed with the following steps for running the frontend code.
 
+---
 ## Getting Started
 
 To run this project locally, follow these steps:
@@ -36,9 +37,39 @@ npm run dev
 ```
 ### 5. Open your browser and go to [http://localhost:5173](http://localhost:5173)
 
-**Note:**
-1. For payment through Flutterwave, refer to this website [https://developer.flutterwave.com/docs/testing](https://developer.flutterwave.com/docs/testing)
-2. For payment through PayPal, refer to this website [https://developer.paypal.com/tools/sandbox/](https://developer.paypal.com/tools/sandbox/)
+---
+## Payment Gateway Testing
+
+### Flutterwave
+
+Follow these steps to test payments using Flutterwave's sandbox environment:
+
+- Log in to your Flutterwave account and go to [Flutterwave Dashboard](https://dashboard.flutterwave.com)
+- Toggle to **Test Mode** (top-right corner)
+- Navigate to **Settings > API** to get your secret key
+- Configure the settings.py file at the main project directory ('shoppit') in backend
+
+```bash
+FLUTTERWAVE_SECRET_KEY=your_secret_key
+```
+- Replace 'your_secret_key' with your secret key
+
+### PayPal
+
+Follow these steps to test payments using PayPal's sandbox environment
+
+- Log in to your PayPal account and go to [PayPal Developer Dashboard](https://developer.paypal.com/)
+- Get both client ID and secret key from **Apps & Credentials** section
+- Navigate to **Testing Tools > Sandbox Accounts**
+- Create a personal account for testing
+- Configure the settings.py file at the main project directory ('shoppit') in backend
+
+```bash
+PAYPAL_MODE=sandbox
+PAYPAL_CLIENT_ID=your_sandbox_client_id
+PAYPAL_SECRET=your_sandbox_secret
+```
+- Replace 'your_sandbox_client_id' with your client ID and 'your_sandbox_secret' with your secret key
 
 ## Support
 
