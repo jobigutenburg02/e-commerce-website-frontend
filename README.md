@@ -4,7 +4,7 @@ This is the **frontend** part of a full-stack e-commerce website, built using **
 
 ## Before Getting Started
 
-Visit [my backend repo](https://github.com/jobigutenburg02/e-commerce-website-backend/) and follow the steps mentioned in the repo. Then you can proceed with the following steps for running the frontend code.
+Visit [my backend repo](https://github.com/jobigutenburg02/e-commerce-website-backend/) and follow the steps mentioned in the repo. After that, proceed with the following steps for running the frontend code.
 
 ## Getting Started
 
